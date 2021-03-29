@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><resultados><versao></versao><versao_smart></versao_smart><ordem_de_servico></ordem_de_servico><cnpj_lab></cnpj_lab><diligenciamento></diligenciamento></resultados>
