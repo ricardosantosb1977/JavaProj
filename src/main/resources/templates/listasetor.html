@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<title>Cadastro de Pessoas e Setores</title>
+	<head>
+		<div style="background: blue; color: white; top: 0px; padding: 10px">
+			Cadastro de Pessoas e Setores
+		</div>	
+	</head>
+	<body>
+		<div>
+			<p>Setores</p>
+			<table>
+				<tr th:each="setores: ${setor}">
+					<td><span th:text="${setor.codigo}"></span></td>
+					<td><span th:text="${setor.nome}"></span></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
